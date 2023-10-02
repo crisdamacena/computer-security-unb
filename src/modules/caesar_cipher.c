@@ -1,4 +1,4 @@
-char* encrypt_caesar(int shift, char message[]) {
+char* encrypt_caesar(int shift, char message[]) {    
   char* message_result = message;
 
     for (int i = 0; message_result[i] != '\0'; i++) {
@@ -12,10 +12,11 @@ char* encrypt_caesar(int shift, char message[]) {
   return message_result;
 }
 
-char* decrypt_caesar(int shift, char message[]) {
+char* decrypt_caesar(int shift, char message[]) { 
   char* message_result = message;
+  char negative_shift = shift * (-1);
 
-  encrypt_caesar(-shift, message_result);
-  
+  encrypt_caesar(negative_shift, message_result);
+
   return message_result;
 }

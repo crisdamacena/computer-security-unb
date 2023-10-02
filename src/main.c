@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "modules/caesar_cipher.c"
+#include "modules/vigenere_cipher.c"
 
 int main() {
-  printf("Hello, world!\n");
 
-  char message[] = "Hello, world!";
-
-  printf("%s\n",encrypt_caesar(3,message));
+  printf("\nEsta é a cifra final: %s\n\n\n",encrypt_vigenere("LEMON","ATTACKATDAWN"));
 
   return 0;
 }
