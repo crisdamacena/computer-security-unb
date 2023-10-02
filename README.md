@@ -3,7 +3,9 @@ Repository for exercises and assignments for the computer security course at the
 
 # Project Title
 
-[Include a title or name for your project]
+Trabalho 1 - Cifra Vigenére
+Cristiane Damancena Gonçalves de Oliveira
+2023/2
 
 ## Description
 
@@ -86,7 +88,7 @@ All tests executed
 
 To use the ciphers, run the program and select the cipher option you want to see the ciphertext in the console.
 
-Type de number in the console. 
+Type the number in the console. 
 
 ## Information
 
