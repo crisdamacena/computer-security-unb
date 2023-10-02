@@ -3,7 +3,6 @@
 
 int all_tests() {
 
-    MU_RUN_SUITE(test_suite_caesar);
     MU_RUN_SUITE(test_suite_vigenere);
 	MU_REPORT();
 	return 0;

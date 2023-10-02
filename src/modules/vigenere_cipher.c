@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 
 char* cryptogram_result = "";
 char* message_result = "";
@@ -26,6 +27,7 @@ for (i = 0; i < messageLen+1; i++) {
 }
 
     cryptogram_result = encryptedMessage;
+    printf("\nTexto cifrado: %s\n\n", cryptogram_result);
     return cryptogram_result;
 }
 
@@ -50,5 +52,6 @@ char* decrypt_vigenere(char key[], char cryptogram[]) {
     }
 
     message_result = decryptedMessage;
+    printf("\nTexto cifrado: %s\n\n", message_result);
     return message_result;
 }

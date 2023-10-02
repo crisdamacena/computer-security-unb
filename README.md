@@ -84,31 +84,10 @@ All tests executed
 
 ## Usage
 
-To use the ciphers, run the program and select the cipher option you want.
+To use the ciphers, run the program and select the cipher option you want to see the ciphertext in the console.
 
-## Configuration
+Type de number in the console. 
 
-[Provide clear instructions on how to install your software. This may include dependencies, installation commands, and basic configuration.]
+## Information
 
-```bash
-# Example installation command
-
-```
-
-## Contribution
-
-[Provide clear instructions on how to install your software. This may include dependencies, installation commands, and basic configuration.]
-
-```bash
-# Example installation command
-
-```
-
-## License
-
-[Provide clear instructions on how to install your software. This may include dependencies, installation commands, and basic configuration.]
-
-```bash
-# Example installation command
-
-```
+Student: Cristiane Damacena 180047906
