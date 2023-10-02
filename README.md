@@ -7,10 +7,6 @@ Trabalho 1 - Cifra Vigenére
 Cristiane Damancena Gonçalves de Oliveira
 2023/2
 
-## Description
-
-[Briefly describe what your project is. What does it do? What problem does it solve?]
-
 ## Table of Contents
 
 - [Installation](#installation)
